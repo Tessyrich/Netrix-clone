@@ -90,6 +90,7 @@ const AboutNetrix = () => {
             will keep your investments in AI strategic and your goals
             attainable.
           </p>
+          this is attainable
         </div>
         <div class="relative lg:w-[35rem] w-64 lg:h-[28rem] h:64 bg-[#330073] rounded-xl">
           <img
