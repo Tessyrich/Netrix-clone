@@ -5,7 +5,7 @@ import DifferenceImg2 from "../assets/Differenceimg2.webp";
 const AboutNetrix = () => {
   return (
     <div className="px-10">
-      <div className="flex lg:flex-row flex-col p-8 gap-5 items-center justify-between">
+      <div className="flex lg:flex-row flex-col lg:p-8 p-4 gap-5 items-center justify-between">
         <div className="w-full lg:w-1/2">
           <p className="text-xs lg:text-sm text-red-600 pb-6">
             ABOUT NETRIX GLOBAL
@@ -18,7 +18,7 @@ const AboutNetrix = () => {
           </h2>
         </div>
         <div className="w-full lg:w-2/3">
-          <p className="text-sm lg:text-xl">
+          <p className="text-sm lg:text-xl text-[#747E87]">
             Netrix Global is an award-winning MSSP and MSP that designs,
             delivers, and supports business-critical solutions for our clients
             across the full spectrum of their complex, risky, and ever-changing
@@ -31,7 +31,7 @@ const AboutNetrix = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5  p-8 w-full">
+      <div className="flex lg:flex-row flex-col gap-5 p-4 lg:p-8 w-full">
         <div class="relative lg:w-[35rem] w-64 lg:h-[28rem] h:64 bg-[#330073] rounded-xl">
           <img
             src={DifferenceImg}
@@ -40,7 +40,7 @@ const AboutNetrix = () => {
           />
         </div>
 
-        <div className="w-full lg:w-1/2 flex flex-col gap-5 pl-10">
+        <div className="w-full lg:w-1/2 flex flex-col gap-5 lg:pl-10">
           <p className="text-xs lg:text-sm text-red-600 pb-6">
             WHAT MAKES US DIFFERENT
           </p>
@@ -50,7 +50,7 @@ const AboutNetrix = () => {
           <h2 className="text-3xl lg:text-5xl font-bold text-[#7347DB]">
             Business Outcomes
           </h2>
-          <p>
+          <p className="text-[#747E87]">
             What makes us different is our relentless pursuit of our clients’
             best interests. We are very selective in our hiring practices, so
             our clients work with only the most accomplished engineers, solution
@@ -65,8 +65,8 @@ const AboutNetrix = () => {
           </button>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5  p-8 w-full">
-        <div className="w-full lg:w-1/2 flex flex-col gap-5 pl-10">
+      <div className="flex lg:flex-row flex-col gap-5 p-4 lg:p-8 w-full">
+        <div className="w-full lg:w-1/2 flex flex-col gap-5 ">
           <p className="text-xs lg:text-sm text-red-600 pb-6">
             POWERING BUSINESS FORWARD
           </p>
@@ -76,7 +76,7 @@ const AboutNetrix = () => {
           <h2 className="text-3xl lg:text-5xl font-bold text-[#7347DB]">
             Ahead of Market Disruptions
           </h2>
-          <p>
+          <p className="text-[#747E87]">
             We’ve all heard the words of caution shared by leading business
             strategists, investors, and technology leaders, “Adopt AI, or you’ll
             be out of business.” AI will soon become a fundamental part of our
@@ -90,9 +90,8 @@ const AboutNetrix = () => {
             will keep your investments in AI strategic and your goals
             attainable.
           </p>
-          this is attainable
         </div>
-        <div class="relative lg:w-[35rem] w-64 lg:h-[28rem] h:64 bg-[#330073] rounded-xl">
+        <div class="relative lg:w-[35rem] w-64 lg:h-[28rem] h:64 bg-[#330073] rounded-xl lg:pl-10">
           <img
             src={DifferenceImg2}
             alt="Your Image"

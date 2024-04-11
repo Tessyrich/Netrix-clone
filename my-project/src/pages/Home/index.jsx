@@ -3,12 +3,13 @@ import movingImage from "../../assets/MainImage2.jpg";
 import LineImage from "../../assets/Line-1065.webp"; // Import your image
 import { Button } from "@nextui-org/react";
 import AboutNetrix from "../../components/AboutNetrix";
+import Subsection2 from "../../components/Subsection2";
 
 const Home = () => {
   return (
     <section className=" ">
       {/* Image */}
-      <div className="relative h-screen lg:h-[150vh] flex justify-start bg-gray-700 pb-40">
+      <div className="relative h-screen lg:h-[100vh] xl:h-[120vh] 2xl:h-[150vh] flex justify-start bg-gray-700 lg:pb-20 xl:pb-40">
         <img
           src={movingImage}
           alt="Moving Image"
@@ -16,7 +17,7 @@ const Home = () => {
         />
 
         {/* Text */}
-        <div className="absolute inset-0 flex flex-col lg:w-1/2 w-full pl-6  justify-center text-white">
+        <div className="absolute inset-0 flex flex-col lg:w-1/2 h-full w-full pl-6  justify-center text-white">
           <h1 className="text-5xl font-bold mb-4">
             Cybersecurity And IT Solutions
           </h1>
@@ -28,7 +29,7 @@ const Home = () => {
             more profitable organisation
           </p>
         </div>
-        <div className=" flex items-end  w-full lg:w-1/2 h-full px-6   gap-5 pb-10">
+        <div className=" flex items-end  w-full lg:w-1/2 h-full px-6   gap-5 ">
           <Button
             radius="full"
             className="bg-gradient-to-tr lg:text-xl from-blue-400 to-purple-500 text-white font-bold shadow-lg transition-transform duration-300 hover:bg-purple-600 hover:scale-105"
@@ -96,6 +97,7 @@ const Home = () => {
       </div>
 
       <AboutNetrix />
+      <Subsection2 />
     </section>
   );
 };
